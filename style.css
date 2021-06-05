@@ -248,10 +248,9 @@ ul li {
 }
 
 .about {
-  background: url("img/illustration.svg");
+  background-image: url(img/illustration2.svg), url(img/illustration.svg);
+  background-position: top right, bottom left;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   position: relative;
   width: 100%;
   display: flex;
