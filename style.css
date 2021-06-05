@@ -3,7 +3,26 @@
   margin: 0;
 }
 
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
 body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -28,7 +47,7 @@ body {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px;
+  padding: 10px 20px;
 }
 
 .main-section {
@@ -55,6 +74,17 @@ body {
   list-style: none;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  padding: 0;
+  margin: 0;
+}
+
 .links li {
   padding: 10px;
 }
@@ -79,4 +109,199 @@ body {
 
 .links li a {
   color: #505f79;
+}
+
+.section-two {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+.section-title {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-title h3 {
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.card {
+  width: 327px;
+  height: 474px;
+  background: #ebf0ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.card-content {
+  width: 327px;
+  height: 222px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #ffff;
+  border-radius: 8px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card-buttons button {
+  padding: 6px 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  border: none;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.green-button {
+  background: #36b37f;
+  border-radius: 4px;
+  padding: 12px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffff;
+  margin-top: 15px;
+}
+
+.green-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.green-button:focus {
+  background-color: #008552;
+}
+
+.card-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.about-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin: 24px 0;
+  color: #172b4d;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.margin-btn {
+  margin: 30px 0;
+}
+
+.about {
+  background: url("img/illustration.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-image {
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+
+.card2 {
+  height: 352px;
+  width: 327px;
+  border-radius: 8px;
+  background: #ebf0ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d0d9d4;
+}
+
+.background-btn button {
+  background-color: #ffff;
+  color: #36b37e;
+  margin: 5px;
+}
+
+.heading-color {
+  color: #344563;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.background-btn {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
 }
