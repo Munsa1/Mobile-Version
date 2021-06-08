@@ -14,6 +14,14 @@ This is a simple site which displays the first two sections of "My Portfolio".
 👤 **Author**
 
 - GitHub: [@Munsa1](https://github.com/munsa1)
+- LinkedIn: [@ntazamawilly](https://www.linkedin.com/in/munsa-mibenge-a35736205/)
+
+## **Co Author**
+
+👤 **Author**
+
+- GitHub: [@ntzwilly](https://github.com/ntzwilly)
+- LinkedIn: [@ntazamawilly](https://linkedin.com/in/ntazama-willy-b676b7aa)
 
 
 ## Show your support
