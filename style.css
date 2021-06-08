@@ -307,28 +307,28 @@ ul li {
 }
 
 .footing {
+  display: flex;
+  flex-direction: column;
   height: 950px;
   width: 375px;
   top: 5483px;
-  padding: 64px, 24px, 64px, 24px;
-  border: 1px solid black;
+  padding: 64px 24px;
 }
 
-  .footing div {
-    background: url("img/Frame.png");
-    background-repeat: no-repeat;
-    background-position: right;
-  }
+.footing div {
+  background: url("img/Frame.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
 
 .footing h2 {
-  font-family: Inter;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   margin: 62px 24px 12px 24px;
 }
 
@@ -339,19 +339,19 @@ ul li {
   padding: 15px 16px;
   margin-top: 12px;
   margin-bottom: 12px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
 }
 
 .form-container {
+  margin: 20px auto;
   margin-top: 50px;
   height: 330px;
   width: 327px;
-  margin: 20px auto;
   text-align: center;
 }
 
@@ -371,8 +371,7 @@ ul li {
   width: 129px;
   border-radius: 4px;
   padding: 12px;
-  background: #36B37F;
-  border: 1px solid blue;
+  background: #36b37f;
   margin-bottom: 52px;
 }
 
@@ -381,15 +380,13 @@ ul li {
 }
 
 .form-paragraph {
-height: 189px;
-width: 300px;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-text-align: center;
-color: #42526E;
-text-align: center;
-margin: 13px auto;
+  height: 189px;
+  width: 300px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin: 13px auto;
 }
