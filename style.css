@@ -345,4 +345,27 @@ ul li {
   margin-top: 50px;
   height: 330px;
   width: 327px;
-  }
+  text-align: center;
+}
+
+.user-comments {
+  height: 114px;
+  width: 327px;
+  border: 1px solid #60C095;
+  padding: 12px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.form-button {
+  height: 48px;
+  width: 129px;
+  left: 99px;
+  top: 282px;
+  border-radius: 4px;
+  padding: 12px;
+  background: #36B37F;
+}
