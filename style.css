@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -303,4 +304,21 @@ ul li {
   justify-content: center;
   width: 100%;
   flex-wrap: wrap;
+}
+
+.footing {
+  height: 363px;
+  width: 327px;
+  margin-top: 50px;
+}
+
+.footing h2 {
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #172B4D;
 }
