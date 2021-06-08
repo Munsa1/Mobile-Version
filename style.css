@@ -310,7 +310,8 @@ ul li {
   height: 363px;
   width: 327px;
   margin-top: 50px;
-}
+  margin: auto;
+  }
 
 .footing h2 {
   font-family: Inter;
@@ -322,3 +323,26 @@ ul li {
   text-align: center;
   color: #172B4D;
 }
+
+.user-info {
+  height: 48px;
+  width: 327px;
+  border-radius: 4px;
+  padding: 15px 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #D0D9D4;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.form-container {
+  margin-top: 50px;
+  height: 330px;
+  width: 327px;
+  }
