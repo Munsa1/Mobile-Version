@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -303,4 +304,102 @@ ul li {
   justify-content: center;
   width: 100%;
   flex-wrap: wrap;
+}
+
+.footing {
+  display: flex;
+  flex-direction: column;
+  height: 950px;
+  width: 375px;
+  top: 5483px;
+  padding: 64px 24px;
+  background: url("img/illustration-contact-form\ \(4\).svg");
+  background-repeat: no-repeat;
+  background-position: right 100.21%;
+}
+
+.footing h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
+  margin: 62px 24px 12px 24px;
+  font-family: Inter, sans-serif;
+}
+
+.user-info {
+  height: 48px;
+  width: 327px;
+  padding: 15px 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #6b778c;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+textarea {
+  color: #091e42;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form-container {
+  margin: 20px auto;
+  margin-top: 50px;
+  height: 330px;
+  width: 327px;
+  text-align: center;
+}
+
+.user-comments {
+  height: 114px;
+  width: 327px;
+  padding: 12px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.form-button {
+  height: 48px;
+  width: 129px;
+  border-radius: 4px;
+  padding: 12px;
+  background: #36b37f;
+  margin-bottom: 52px;
+}
+
+.links-margin {
+  margin-top: 47.04px;
+}
+
+.form-paragraph {
+  height: 189px;
+  width: 300px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin: 13px auto;
 }
