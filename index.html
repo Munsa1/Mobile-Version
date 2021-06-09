@@ -6,6 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 <title>Munsa's Portfolio</title>
 </head>
 <body>
@@ -144,14 +146,14 @@
 
 </main>
 
-<footer class="footing">
+<footer class="footing background">
 <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 <div>
 <form class="form-container user-form" action="https://formspree.io/f/xbjqyrpj" method="POST">  
-    <input type="text" class="user-info" placeholder="Full name" maxlength="30" required>
-    <input type="email" class="user-info" placeholder="Email address" required>
-    <textarea  class="user-comments" cols="30" rows="10" placeholder="Enter text here" maxlength="500"  required></textarea>
-    <input class="form-button green-button" type="submit" value="Get in touch">
+    <input type="text" class="user-info name" placeholder="Full name" name="user-name" maxlength="30" required>
+    <input type="email" class="user-info" placeholder="Email address" name="email-address" required>
+    <textarea class="user-comments" placeholder="write your message here" name="comment" maxlength="500"  required></textarea>
+    <input class="form-button green-button" type="submit" name="submit-button" value="Get in touch">
 </form>
 
 <ul class="links links-margin">

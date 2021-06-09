@@ -313,12 +313,9 @@ ul li {
   width: 375px;
   top: 5483px;
   padding: 64px 24px;
-}
-
-.footing div {
-  background: url("img/Frame.png");
+  background: url("img/illustration-contact-form\ \(4\).svg");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right 100.21%;
 }
 
 .footing h2 {
@@ -330,21 +327,37 @@ ul li {
   text-align: center;
   color: #172b4d;
   margin: 62px 24px 12px 24px;
+  font-family: Inter, sans-serif;
 }
 
 .user-info {
   height: 48px;
   width: 327px;
-  border-radius: 4px;
   padding: 15px 16px;
   margin-top: 12px;
   margin-bottom: 12px;
   border: 1px solid #d0d9d4;
-  font-size: 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #6b778c;
+  font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
+  font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
+}
+
+textarea {
+  color: #091e42;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .form-container {
