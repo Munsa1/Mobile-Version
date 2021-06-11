@@ -490,6 +490,7 @@ textarea {
 
   .footer-right-container {
     width: 60%;
+    text-align: right;
   }
 
   .section-title {
@@ -546,7 +547,8 @@ textarea {
   }
 
   .form-button {
-    justify-self: flex-start;
+    display: block;
+    text-align: left;
   }
 
   .links {
@@ -561,5 +563,10 @@ textarea {
 
   .links-margin a i {
     font-size: 23px;
+  }
+
+  .left-align {
+    align-self: flex-start;
+    margin-left: 32px;
   }
 }
