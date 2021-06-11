@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, Helvetica, sans-serif;
 }
 
 main {
@@ -27,20 +27,19 @@ main {
   width: 100%;
 }
 
+.heading nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar-list {
+  display: none;
+}
+
 .heading-main {
   height: 192px;
   width: 327px;
-}
-
-.p-two {
-  height: 164px;
-  width: 327px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #172b4d;
 }
 
 .heading {
@@ -51,9 +50,21 @@ main {
   padding: 10px 20px;
 }
 
+.p-two {
+  font-family: Inter, sans-serif;
+  width: 327px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 14px;
+}
+
 .main-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -63,7 +74,7 @@ main {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 
 .links {
@@ -94,6 +105,7 @@ ul li {
   color: #172b4d;
   font-style: normal;
   font-weight: bold;
+  font-family: Inter, sans-serif;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
@@ -101,6 +113,7 @@ ul li {
 
 .heading-main h2 {
   color: #36b37e;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -113,6 +126,7 @@ ul li {
 }
 
 .section-two {
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -184,6 +198,7 @@ ul li {
 
 .card-buttons button {
   padding: 6px 10px;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -200,6 +215,7 @@ ul li {
   border-radius: 4px;
   padding: 12px;
   border: none;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -218,6 +234,7 @@ ul li {
 
 .card-heading {
   font-style: normal;
+  font-family: Inter, sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -226,6 +243,7 @@ ul li {
 }
 
 .about-title {
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -251,7 +269,7 @@ ul li {
 .about {
   background-image: url(img/illustration2.svg), url(img/illustration.svg);
   background-position: top right, bottom left;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, no-repeat;
   position: relative;
   width: 100%;
   display: flex;
@@ -309,13 +327,12 @@ ul li {
 .footing {
   display: flex;
   flex-direction: column;
-  height: 950px;
+  justify-content: right;
   width: 375px;
-  top: 5483px;
-  padding: 64px 24px;
   background: url("img/illustration-contact-form\ \(4\).svg");
   background-repeat: no-repeat;
-  background-position: right 100.21%;
+  padding-top: 40px;
+  background-position: right 77%;
 }
 
 .footing h2 {
@@ -345,7 +362,6 @@ ul li {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  letter-spacing: 0;
 }
 
 textarea {
@@ -362,10 +378,11 @@ textarea {
 
 .form-container {
   margin: 20px auto;
-  margin-top: 50px;
-  height: 330px;
-  width: 327px;
-  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .user-comments {
@@ -373,10 +390,10 @@ textarea {
   width: 327px;
   padding: 12px;
   font-size: 15px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  text-align: left;
+  font-family: Inter, sans-serif;
+  resize: none;
 }
 
 .form-button {
@@ -397,9 +414,152 @@ textarea {
   width: 300px;
   font-size: 20px;
   font-style: normal;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   line-height: 32px;
   text-align: center;
   color: #42526e;
   margin: 13px auto;
+}
+
+@media screen and (min-width: 992px) {
+  .heading nav i {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .nav-bar-list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-bar-list li {
+    margin-top: 5px;
+    padding: 0 16px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(52, 69, 99, 1);
+  }
+
+  .nav-bar-list li a {
+    text-decoration: none;
+  }
+
+  .main-section {
+    background-image: url("img/Header-llustration-desktop@2x.png");
+  }
+
+  .heading-main {
+    height: 114px;
+    width: 920px;
+  }
+
+  .p-two {
+    width: 920px;
+  }
+
+  .index-img {
+    display: none;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .about {
+    background-image: url(img/illustration-about\ me-1-desktop-about-left.svg), url(img/illustration-about\ me-1-desktop-about-right.png);
+    background-position: center left, top right;
+    width: 100%;
+    background-size: 8%;
+    margin-top: 120px;
+  }
+
+  .footing h2 {
+    display: block;
+    width: 40%;
+  }
+
+  .footer-right-container {
+    width: 60%;
+  }
+
+  .section-title {
+    height: 48px;
+    width: 447px;
+    margin-top: 150px;
+  }
+
+  .hide-first-icon {
+    display: none;
+  }
+
+  .heading-main h2 {
+    font-family: Inter, sans-serif;
+    color: #36b37e;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .footing {
+    width: 100%;
+    background-image: url("img/footing-bg-1-desktop.svg"), url("img/footing-bg-2-desktop.svg"), url("img/footing-bg-3-desktop.svg");
+    background-position: left bottom, 13rem bottom, right bottom;
+    background-size: 9%;
+    padding-bottom: 40px;
+    position: relative;
+  }
+
+  .footer-main-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-paragraph {
+    display: none;
+  }
+
+  .form-container {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .user-info {
+    width: 90%;
+  }
+
+  .user-comments {
+    width: 90%;
+  }
+
+  .form-button {
+    justify-self: flex-start;
+  }
+
+  .links {
+    margin-top: 20px;
+  }
+
+  .links-margin {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .links-margin a i {
+    font-size: 23px;
+  }
 }
