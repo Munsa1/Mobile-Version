@@ -576,4 +576,32 @@ textarea {
   .left-align {
     align-self: flex-start;
   }
+
+  .about-title:hover {
+    animation-name: rotate;
+    animation-duration: 3s;
+  }
+
+  .section-title h3 {
+    animation-name: moveInRight;
+    animation-duration: 3s;
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes moveInRight {
+    0%{
+      opacity: 0%;
+      transform: translateX(-100px);
+    }
+
+    100% {
+      opacity: 100%;
+      transform: translateX(0);
+    }
+  }
 }
