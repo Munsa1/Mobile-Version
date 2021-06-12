@@ -587,6 +587,10 @@ textarea {
     animation-duration: 3s;
   }
 
+  .p-one {
+    animation: fade-inout 3s infinite alternate;
+  }
+
   @keyframes rotate {
     100% {
       transform: rotate(360deg);
@@ -602,6 +606,16 @@ textarea {
     100% {
       opacity: 100%;
       transform: translateX(0);
+    }
+  }
+
+  @keyframes fade-inout {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
     }
   }
 }
