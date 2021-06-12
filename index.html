@@ -14,6 +14,11 @@
 <header class="heading">
     <h2 class="logo">Welcome</h2>
         <nav>
+            <ul class="nav-bar-list">
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
             <i class="fa fa-bars" ></i>
         </nav> 
 </header> 
@@ -34,12 +39,12 @@
             <li><a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-angellist fa-2x" aria-hidden="true"></i></a></li>
         </ul>
-         <img src="img/Disabled.png" alt="icon">     
+         <img src="img/Disabled.png" alt="icon" class="index-img">     
     </section>
     <section class="section-two">
         <div class="section-title">
             <h3>My Recent Works</h3>
-                <img src="img/Indicator.png" alt="icon">
+                <img src="img/Indicator.png" alt="icon" class="hide-first-icon">
         </div>
         <ul class="card-container">
             <li class="card">
@@ -79,6 +84,30 @@
                 </div>
             </li>
             <li class="card">
+                <div class="card-content">
+                    <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
+                        <ul class="card-buttons">
+                            <li><button type="button">Ruby On Rails</button></li>
+                            <li><button type="button">CSS</button></li>
+                            <li><button type="button">Javascript</button></li>
+                            <li><button type="button">HTML</button></li>
+                        </ul>
+                    <button class="green-button" type="button">See Project</button>
+                </div>
+            </li>
+            <li class="card hide">
+                <div class="card-content">
+                    <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
+                        <ul class="card-buttons">
+                            <li><button type="button">Ruby On Rails</button></li>
+                            <li><button type="button">CSS</button></li>
+                            <li><button type="button">Javascript</button></li>
+                            <li><button type="button">HTML</button></li>
+                        </ul>
+                    <button class="green-button" type="button">See Project</button>
+                </div>
+            </li>
+            <li class="card hide">
                 <div class="card-content">
                     <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
                         <ul class="card-buttons">
@@ -147,24 +176,26 @@
 </main>
 
 <footer class="footing background">
+    <div class="footer-main-container">
 <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-<div>
+<div class="footer-right-container">
 <form class="form-container user-form" action="https://formspree.io/f/xbjqyrpj" method="POST">  
     <input type="text" class="user-info name" placeholder="Full name" name="user-name" maxlength="30" required>
     <input type="email" class="user-info" placeholder="Email address" name="email-address" required>
     <textarea class="user-comments" placeholder="write your message here" name="comment" maxlength="500"  required></textarea>
-    <input class="form-button green-button" type="submit" name="submit-button" value="Get in touch">
+    <input class="form-button green-button left-align" type="submit" name="submit-button" value="Get in touch">
 </form>
 
 <ul class="links links-margin">
-    <li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-angellist fa-2x" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-medium fa-1x" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-github fa-1x" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-angellist fa-1x" aria-hidden="true"></i></a></li>
 </ul>
 </div>
 <p class = "form-paragraph">munsamibenge65@gmail.com</p>
+</div>
 </footer>
           
 </body>
