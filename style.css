@@ -385,6 +385,10 @@ textarea {
   align-items: center;
 }
 
+.left-align {
+  align-self: center;
+}
+
 .user-comments {
   height: 114px;
   width: 327px;
@@ -536,6 +540,10 @@ textarea {
   .form-container {
     width: 100%;
     padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .user-info {
@@ -567,6 +575,5 @@ textarea {
 
   .left-align {
     align-self: flex-start;
-    margin-left: 32px;
   }
 }
