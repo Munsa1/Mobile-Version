@@ -518,7 +518,8 @@ textarea {
   }
 
   .about {
-    background-image: url(img/illustration-about\ me-1-desktop-about-left.svg),
+    background-image:
+      url(img/illustration-about\ me-1-desktop-about-left.svg),
       url(img/illustration-about\ me-1-desktop-about-right.png);
     background-position: center left, top right;
     width: 100%;
@@ -558,8 +559,10 @@ textarea {
 
   .footing {
     width: 100%;
-    background-image: url("img/footing-bg-1-desktop.svg"),
-      url("img/footing-bg-2-desktop.svg"), url("img/footing-bg-3-desktop.svg");
+    background-image:
+      url("img/footing-bg-1-desktop.svg"),
+      url("img/footing-bg-2-desktop.svg"),
+      url("img/footing-bg-3-desktop.svg");
     background-position: left bottom, 13rem bottom, right bottom;
     background-size: 9%;
     padding-bottom: 40px;
