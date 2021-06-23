@@ -60,3 +60,54 @@ document.getElementsByClassName('mobile-a')[1].addEventListener('click', () => {
 document.getElementsByClassName('mobile-a')[2].addEventListener('click', () => {
   menu.style.display = 'none';
 });
+
+const projects = [
+  {
+    id: 0,
+    name: 'Tonic',
+    companyName: 'CANOPY',
+    position: 'Back End Dev',
+    year: 2015,
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    technologies: ['html', 'css', 'javascript'],
+    liveSource: '#',
+    sourceCode: '#',
+  },
+  {
+    id: 1,
+    name: 'Multi-Post Stories',
+    companyName: 'FACEEBOOK',
+    position: 'Full Stack Dev',
+    year: 2015,
+    description:
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
+    liveSource: '#',
+    sourceCode: '#',
+  },
+  {
+    id: 2,
+    name: 'Facebook 360',
+    companyName: 'FACEEBOOK',
+    position: 'Full Stack Dev',
+    year: 2015,
+    description:
+      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+    technologies: ['html', 'css', 'javascript'],
+    liveSource: '#',
+    sourceCode: '#',
+  },
+  {
+    id: 3,
+    name: 'Uber Navigation',
+    companyName: 'Uber',
+    position: 'Lead Developer',
+    year: 2018,
+    description:
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    technologies: ['html', 'Ruby on Rails', 'css', 'javascript'],
+    liveSource: '#',
+    sourceCode: '#',
+  },
+];
