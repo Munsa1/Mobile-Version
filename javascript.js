@@ -111,3 +111,32 @@ const projects = [
     sourceCode: '#',
   },
 ];
+const portfolioDynamic = document.getElementById('portfolio-section');
+const projectList = document.createElement('ul');
+projectList.className = 'card-container';
+portfolioDynamic.appendChild(projectList);
+
+let projectsCard = '';
+for (let j=0; j<projects.length; j++){
+  projectsCard+=`
+  <li class="card">
+    <div class="card-content">
+    <h4 class="card-heading">${projects[j].name}</h4>
+    <ul class="card-buttons">
+    ${(function usedTech() {
+      let btns = '';
+      for (let i=0; i<projects[j].technologies.length; i++){
+        btns+=`<li ><button type="button">${projects[j].technologies[i]}</button></li>`;
+      }
+    return btns;
+  }())}
+
+    </ul>
+    
+        <button class="green-button" type="button" data-id="${projects[j].id}">See Project</button>
+  </div>
+</li>`
+}
+
+
+projectList.innerHTML = projectsCard;
