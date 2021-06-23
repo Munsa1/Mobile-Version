@@ -134,3 +134,9 @@ for (let j=0; j<projects.length; j++){
 
 
 projectList.innerHTML = projectsCard;
+
+//------------------Validation For Email-----------------
+const form = document.getElementById('contact-form')
+const input = document.getElementById('email-input')
+const span = document.getElementById('error-message')
+
