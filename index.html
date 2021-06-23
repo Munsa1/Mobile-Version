@@ -1,211 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-199539762-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <meta charset="UTF-8"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-199539762-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-199539762-1');
-</script>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="style.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-<title>Munsa's Portfolio</title>
-</head>
-<body>
-<header class="heading">
-    <h2 class="logo">Welcome</h2>
-        <nav>
-            <ul class="nav-bar-list">
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-            <i class="fa fa-bars" ></i>
-        </nav> 
-</header> 
-<main>
-    <section class="main-section">
+      gtag("config", "UA-199539762-1");
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <title>Munsa's Portfolio</title>
+  </head>
+
+  <body id="body-project">
+    <header class="heading">
+      <h2 class="logo">Welcome</h2>
+      <nav>
+        <ul class="nav-bar-list">
+          <li><a href="#portfolio-section">Portfolio</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+        <i class="fa fa-bars" id="bars"></i>
+      </nav>
+    </header>
+    <main>
+      <section class="main-section">
         <div class="heading-main">
-            <h1 class="p-one">Hey there. I’m Munsa</h1> 
-                <h2>I’m a software developer</h2> 
+          <h1 class="p-one">Hey there. I’m Munsa</h1>
+          <h2>I’m a software developer</h2>
         </div>
 
-        <p class="p-two"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-            don’t hestiate to contact me.
+        <p class="p-two">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
         </p>
         <ul class="links">
-            <li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-angellist fa-2x" aria-hidden="true"></i></a></li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-medium fa-2x" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-github fa-2x" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-angellist fa-2x" aria-hidden="true"></i
+            ></a>
+          </li>
         </ul>
-         <img src="img/Disabled.png" alt="icon" class="index-img">     
-    </section>
-    <section class="section-two">
+        <img src="img/Disabled.png" alt="icon" class="index-img" />
+      </section>
+      <section class="section-two" id="portfolio-section">
         <div class="section-title">
-            <h3>My Recent Works</h3>
-                <img src="img/Indicator.png" alt="icon" class="hide-first-icon">
+          <h3>My Recent Works</h3>
+          <img src="img/Indicator.png" alt="icon" class="hide-first-icon" />
         </div>
         <ul class="card-container">
-            <li class="card">
-                <div class="card-content">
-                    <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
-                        <ul class="card-buttons">
-                            <li><button type="button">Ruby On Rails</button></li>
-                            <li><button type="button">CSS</button></li>
-                            <li><button type="button">Javascript</button></li>
-                            <li><button type="button">HTML</button></li>
-                        </ul>
-                    <button class="green-button" type="button">See Project</button>
-                </div>
-            </li>
-            <li class="card">
-                <div class="card-content">
-                    <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
-                        <ul class="card-buttons">
-                            <li><button type="button">Ruby On Rails</button></li>
-                            <li><button type="button">CSS</button></li>
-                            <li><button type="button">Javascript</button></li>
-                            <li><button type="button">HTML</button></li>
-                        </ul>
-                    <button class="green-button" type="button">See Project</button>
-                </div>
-            </li>
-            <li class="card">
-                <div class="card-content">
-                    <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
-                        <ul class="card-buttons">
-                            <li><button type="button">Ruby On Rails</button></li>
-                            <li><button type="button">CSS</button></li>
-                            <li><button type="button">Javascript</button></li>
-                            <li><button type="button">HTML</button></li>
-                        </ul>
-                    <button class="green-button" type="button">See Project</button>
-                </div>
-            </li>
-            <li class="card">
-                <div class="card-content">
-                    <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
-                        <ul class="card-buttons">
-                            <li><button type="button">Ruby On Rails</button></li>
-                            <li><button type="button">CSS</button></li>
-                            <li><button type="button">Javascript</button></li>
-                            <li><button type="button">HTML</button></li>
-                        </ul>
-                    <button class="green-button" type="button">See Project</button>
-                </div>
-            </li>
-            <li class="card hide">
-                <div class="card-content">
-                    <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
-                        <ul class="card-buttons">
-                            <li><button type="button">Ruby On Rails</button></li>
-                            <li><button type="button">CSS</button></li>
-                            <li><button type="button">Javascript</button></li>
-                            <li><button type="button">HTML</button></li>
-                        </ul>
-                    <button class="green-button" type="button">See Project</button>
-                </div>
-            </li>
-            <li class="card hide">
-                <div class="card-content">
-                    <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
-                        <ul class="card-buttons">
-                            <li><button type="button">Ruby On Rails</button></li>
-                            <li><button type="button">CSS</button></li>
-                            <li><button type="button">Javascript</button></li>
-                            <li><button type="button">HTML</button></li>
-                        </ul>
-                    <button class="green-button" type="button">See Project</button>
-                </div>
-            </li>
+          <li class="card">
+            <div class="card-content">
+              <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
+              <ul class="card-buttons">
+                <li><button type="button">Ruby On Rails</button></li>
+                <li><button type="button">CSS</button></li>
+                <li><button type="button">Javascript</button></li>
+                <li><button type="button">HTML</button></li>
+              </ul>
+              <button class="green-button" type="button">See Project</button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card-content">
+              <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
+              <ul class="card-buttons">
+                <li><button type="button">Ruby On Rails</button></li>
+                <li><button type="button">CSS</button></li>
+                <li><button type="button">Javascript</button></li>
+                <li><button type="button">HTML</button></li>
+              </ul>
+              <button class="green-button" type="button">See Project</button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card-content">
+              <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
+              <ul class="card-buttons">
+                <li><button type="button">Ruby On Rails</button></li>
+                <li><button type="button">CSS</button></li>
+                <li><button type="button">Javascript</button></li>
+                <li><button type="button">HTML</button></li>
+              </ul>
+              <button class="green-button" type="button">See Project</button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card-content">
+              <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
+              <ul class="card-buttons">
+                <li><button type="button">Ruby On Rails</button></li>
+                <li><button type="button">CSS</button></li>
+                <li><button type="button">Javascript</button></li>
+                <li><button type="button">HTML</button></li>
+              </ul>
+              <button class="green-button" type="button">See Project</button>
+            </div>
+          </li>
+          <li class="card hide">
+            <div class="card-content">
+              <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
+              <ul class="card-buttons">
+                <li><button type="button">Ruby On Rails</button></li>
+                <li><button type="button">CSS</button></li>
+                <li><button type="button">Javascript</button></li>
+                <li><button type="button">HTML</button></li>
+              </ul>
+              <button class="green-button" type="button">See Project</button>
+            </div>
+          </li>
+          <li class="card hide">
+            <div class="card-content">
+              <h4 class="card-heading">Multi-Post Stories Gain+Glory</h4>
+              <ul class="card-buttons">
+                <li><button type="button">Ruby On Rails</button></li>
+                <li><button type="button">CSS</button></li>
+                <li><button type="button">Javascript</button></li>
+                <li><button type="button">HTML</button></li>
+              </ul>
+              <button class="green-button" type="button">See Project</button>
+            </div>
+          </li>
         </ul>
-     
-    </section>
-    <section class="section-3">
+      </section>
+      <section class="section-3" id="about-section">
         <div class="about">
-            <h2 class="about-title">About Me</h2>
-                <p class="p-two"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don’t hestiate to contact me.</p>
-                    <button class="green-button margin-btn" type="button">Get My Resume</button>
-
+          <h2 class="about-title">About Me</h2>
+          <p class="p-two">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+          <button class="green-button margin-btn" type="button">
+            Get My Resume
+          </button>
         </div>
-        
-    <ul class="card-container">
-        <li class="card2">
-            <img src="img/icon-languages.svg" alt="icon">
-                <div class="languages">
-                    <h5 class="card-heading heading-color">Languages</h5>
-                    <ul class="card-buttons background-btn">
-                        <li><button type="button">Javascript</button></li>
-                        <li><button type="button">Ruby</button></li>
-                        <li><button type="button">HTML</button></li>
-                        <li><button type="button">CSS</button></li>
-                    </ul>
-                </div>
-        </li>
-        <li class="card2">
-            <img src="img/icon-frameworks.svg" alt="icon">
-                <div class="languages">
-                    <h5 class="card-heading heading-color">Frameworks</h5>
-                    <ul class="card-buttons background-btn">
-                        <li><button type="button">Bootstrap</button></li>
-                        <li><button type="button">Ruby on Rails</button></li>
-                        <li><button type="button">RSpec</button></li>
-                        <li><button type="button">CapyBara</button></li>
-                        <li><button type="button">Selenium</button></li>
-                    </ul>
-                </div>   
-        </li>
-        <li class="card2">
-            <img src="img/icon-skills.svg" alt="icon">
-                <div class="languages">
-                    <h5 class="card-heading heading-color">Skills</h5>
-                    <ul class="card-buttons background-btn">
-                        <li><button type="button">CodeKit</button></li>
-                        <li><button type="button">GitHub</button></li>
-                        <li><button type="button">CodePen</button></li>
-                        <li><button type="button">GitLab</button></li>
-                        <li><button type="button">Terminal</button></li>
-                    </ul>
-                </div>   
-        </li>
-    </ul>
-    </section>
 
-</main>
+        <ul class="card-container">
+          <li class="card2">
+            <img src="img/icon-languages.svg" alt="icon" />
+            <div class="languages">
+              <h5 class="card-heading heading-color">Languages</h5>
+              <ul class="card-buttons background-btn">
+                <li><button type="button">Javascript</button></li>
+                <li><button type="button">Ruby</button></li>
+                <li><button type="button">HTML</button></li>
+                <li><button type="button">CSS</button></li>
+              </ul>
+            </div>
+          </li>
+          <li class="card2">
+            <img src="img/icon-frameworks.svg" alt="icon" />
+            <div class="languages">
+              <h5 class="card-heading heading-color">Frameworks</h5>
+              <ul class="card-buttons background-btn">
+                <li><button type="button">Bootstrap</button></li>
+                <li><button type="button">Ruby on Rails</button></li>
+                <li><button type="button">RSpec</button></li>
+                <li><button type="button">CapyBara</button></li>
+                <li><button type="button">Selenium</button></li>
+              </ul>
+            </div>
+          </li>
+          <li class="card2">
+            <img src="img/icon-skills.svg" alt="icon" />
+            <div class="languages">
+              <h5 class="card-heading heading-color">Skills</h5>
+              <ul class="card-buttons background-btn">
+                <li><button type="button">CodeKit</button></li>
+                <li><button type="button">GitHub</button></li>
+                <li><button type="button">CodePen</button></li>
+                <li><button type="button">GitLab</button></li>
+                <li><button type="button">Terminal</button></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
 
-<footer class="footing background">
-    <div class="footer-main-container">
-<h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-<div class="footer-right-container">
-<form class="form-container user-form" action="https://formspree.io/f/xbjqyrpj" method="POST">  
-    <input type="text" class="user-info name" placeholder="Full name" name="user-name" maxlength="30" required>
-    <input type="email" class="user-info" placeholder="Email address" name="email-address" required>
-    <textarea class="user-comments" placeholder="write your message here" name="comment" maxlength="500"  required></textarea>
-    <input class="form-button green-button left-align" type="submit" name="submit-button" value="Get in touch">
-</form>
+    <footer class="footing background" id="contact-section">
+      <div class="footer-main-container">
+        <h2>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
+        <div class="footer-right-container">
+          <form
+            class="form-container user-form"
+            action="https://formspree.io/f/xbjqyrpj"
+            method="POST"
+          >
+            <input
+              type="text"
+              class="user-info name"
+              placeholder="Full name"
+              name="user-name"
+              maxlength="30"
+              required
+            />
+            <input
+              type="email"
+              class="user-info"
+              placeholder="Email address"
+              name="email-address"
+              required
+            />
+            <textarea
+              class="user-comments"
+              placeholder="write your message here"
+              name="comment"
+              maxlength="500"
+              required
+            ></textarea>
+            <input
+              class="form-button green-button left-align"
+              type="submit"
+              name="submit-button"
+              value="Get in touch"
+            />
+          </form>
 
-<ul class="links links-margin">
-    <li><a href="#"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-medium fa-1x" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-github fa-1x" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-angellist fa-1x" aria-hidden="true"></i></a></li>
-</ul>
-</div>
-<p class = "form-paragraph">munsamibenge65@gmail.com</p>
-</div>
-</footer>
-          
-</body>
+          <ul class="links links-margin">
+            <li>
+              <a href="#"
+                ><i class="fa fa-twitter fa-1x" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-medium fa-1x" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-github fa-1x" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-angellist fa-1x" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <p class="form-paragraph">munsamibenge65@gmail.com</p>
+      </div>
+    </footer>
+    <script src="javascript.js"></script>
+  </body>
 </html>

@@ -10,6 +10,10 @@ html {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   width: 100%;
   display: flex;
@@ -17,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: Inter, Helvetica, sans-serif;
+  position: relative;
 }
 
 main {
@@ -25,6 +30,39 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.menu-style {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: #fff;
+}
+
+.mobile-a {
+  color: #000;
+}
+
+.menu-style i {
+  color: #000;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 62px;
+  padding-right: 38px;
+}
+
+.menu-style .menu-list {
+  margin-top: 40px;
+  padding-left: 28px;
+}
+
+.menu-style a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 64px;
 }
 
 .heading nav {
@@ -480,7 +518,9 @@ textarea {
   }
 
   .about {
-    background-image: url(img/illustration-about\ me-1-desktop-about-left.svg), url(img/illustration-about\ me-1-desktop-about-right.png);
+    background-image:
+      url(img/illustration-about\ me-1-desktop-about-left.svg),
+      url(img/illustration-about\ me-1-desktop-about-right.png);
     background-position: center left, top right;
     width: 100%;
     background-size: 8%;
@@ -519,7 +559,10 @@ textarea {
 
   .footing {
     width: 100%;
-    background-image: url("img/footing-bg-1-desktop.svg"), url("img/footing-bg-2-desktop.svg"), url("img/footing-bg-3-desktop.svg");
+    background-image:
+      url("img/footing-bg-1-desktop.svg"),
+      url("img/footing-bg-2-desktop.svg"),
+      url("img/footing-bg-3-desktop.svg");
     background-position: left bottom, 13rem bottom, right bottom;
     background-size: 9%;
     padding-bottom: 40px;
