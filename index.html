@@ -84,12 +84,14 @@
         </ul>
         <img src="img/Disabled.png" alt="icon" class="index-img" />
       </section>
+
       <section class="section-two" id="portfolio-section">
         <div class="section-title">
           <h3>My Recent Works</h3>
           <img src="img/Indicator.png" alt="icon" class="hide-first-icon" />
         </div>
       </section>
+      
       <section class="section-3" id="about-section">
         <div class="about">
           <h2 class="about-title">About Me</h2>
@@ -169,6 +171,7 @@
             />
             <input
               type="email"
+              id="email-input"
               class="user-info"
               placeholder="Email address"
               name="email-address"
@@ -181,12 +184,13 @@
               maxlength="500"
               required
             ></textarea>
-            <input
+            <span id="error-message" class="error-message"></span>
+            <button
               class="form-button green-button left-align"
               type="submit"
               name="submit-button"
-              value="Get in touch"
-            />
+              
+            >Get in touch</button>
           </form>
 
           <ul class="links links-margin">

@@ -447,6 +447,11 @@ textarea {
   margin-bottom: 52px;
 }
 
+.error-message {
+  color: rgb(185, 6, 6);
+  font-size: 0.8em;
+  margin: 5px 0;
+}
 .links-margin {
   margin-top: 47.04px;
 }
