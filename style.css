@@ -425,13 +425,36 @@ textarea {
 
 /* ---------- CARD DETAILS ------------ */
 .details-container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(182, 177, 177);
+  right: 0;
+  bottom: 0;
+  background-color: rgba(182, 177, 177, 0.801);
 }
-/* ----------------------------------- */
 
+.details-container-content {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #008552;
+}
+
+.project-info {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+/* ----------------------------------- */
 
 .left-align {
   align-self: center;
@@ -528,8 +551,7 @@ textarea {
   }
 
   .about {
-    background-image:
-      url(img/illustration-about\ me-1-desktop-about-left.svg),
+    background-image: url(img/illustration-about\ me-1-desktop-about-left.svg),
       url(img/illustration-about\ me-1-desktop-about-right.png);
     background-position: center left, top right;
     width: 100%;
@@ -569,10 +591,8 @@ textarea {
 
   .footing {
     width: 100%;
-    background-image:
-      url("img/footing-bg-1-desktop.svg"),
-      url("img/footing-bg-2-desktop.svg"),
-      url("img/footing-bg-3-desktop.svg");
+    background-image: url("img/footing-bg-1-desktop.svg"),
+      url("img/footing-bg-2-desktop.svg"), url("img/footing-bg-3-desktop.svg");
     background-position: left bottom, 13rem bottom, right bottom;
     background-size: 9%;
     padding-bottom: 40px;
