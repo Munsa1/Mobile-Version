@@ -64,31 +64,26 @@ document.getElementsByClassName("mobile-a")[2].addEventListener("click", () => {
 const projects = [
   {
     id: 0,
-    name: "Tonic",
-    companyName: "CANOPY",
-    position: "Back End Dev",
-    year: 2015,
+    name: "Multi-Post Stories Gain+Glory",
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    technologies: ["html", "css", "javascript"],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technologies: ["Ruby on rails", "css", "javascript", "html"],
     image: {
-      link: "./img/project0.png",
-      alt: "Tonic screenshot",
+      link: "img/modal popup.png",
+      alt: "Project Screenshot",
     },
+    
     liveSource: "#",
     sourceCode: "#",
   },
   {
     id: 1,
-    name: "Multi-Post Stories",
-    companyName: "FACEEBOOK",
-    position: "Full Stack Dev",
-    year: 2015,
+    name: "Multi-Post Stories Gain+Glory",
     description:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-    technologies: ["html", "Ruby on Rails", "css", "javascript"],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technologies: ["Ruby on rails", "css", "javascript", "html"],
     image: {
-      link: "./img/project4.png",
+      link: "img/modal popup.png",
       alt: "Multi-Post Stories screenshot",
     },
     liveSource: "#",
@@ -96,15 +91,12 @@ const projects = [
   },
   {
     id: 2,
-    name: "Facebook 360",
-    companyName: "FACEEBOOK",
-    position: "Full Stack Dev",
-    year: 2015,
+    name: "Multi-Post Stories Gain+Glory",
     description:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    technologies: ["html", "css", "javascript"],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technologies: ["Ruby on rails", "css", "javascript", "html"],
     image: {
-      link: "./img/project1.png",
+      link: "img/modal popup.png",
       alt: "Facebook 360screenshot",
     },
     liveSource: "#",
@@ -112,15 +104,38 @@ const projects = [
   },
   {
     id: 3,
-    name: "Uber Navigation",
-    companyName: "Uber",
-    position: "Lead Developer",
-    year: 2018,
+    name: "Multi-Post Stories Gain+Glory",
     description:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-    technologies: ["html", "Ruby on Rails", "css", "javascript"],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technologies: ["Ruby on rails", "css", "javascript", "html"],
     image: {
-      link: "./img/project2.png",
+      link: "img/modal popup.png",
+      alt: "Uber Navigation screenshot",
+    },
+    liveSource: "#",
+    sourceCode: "#",
+  },
+  {
+    id: 4,
+    name: "Multi-Post Stories Gain+Glory",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technologies: ["Ruby on rails", "css", "javascript", "html"],
+    image: {
+      link: "img/modal popup.png",
+      alt: "Uber Navigation screenshot",
+    },
+    liveSource: "#",
+    sourceCode: "#",
+  },
+  {
+    id: 5,
+    name: "Multi-Post Stories Gain+Glory",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technologies: ["Ruby on rails", "css", "javascript", "html"],
+    image: {
+      link: "img/modal popup.png",
       alt: "Uber Navigation screenshot",
     },
     liveSource: "#",
@@ -136,19 +151,19 @@ function showDetails(projectIndex) {
   const projectsCode = `
   <div class="details-container">
     <div class="details-container-content">
-      <span id="closeDetails"><i class="fa fa-times closeDetails"></i></span>
-      <img class="project-image" src="${
-        projects[projectIndex].image.link
-      }" alt="${projects[projectIndex].image.alt}" />
+      <i class="fa fa-times closeDetails" id="closeDetails"></i>
+      <img class="project-image" src="${projects[projectIndex].image.link}" alt="${projects[projectIndex].image.alt}" />
       <div class="project-info">
-        <h2 class="project-title">${projects[projectIndex].name}</h2>
+        <h2 class="
+        project-title">Keeping track of hundreds of
+        components</h2>
         <div class="buttons">
           <a href="${
             projects[projectIndex].liveSource
-          }" class="btn">See Live <i class="fa fa-external-link"></i></a>
+          }" class="btn green-button">See Live <i class="fa fa-external-link"></i></a>
            <a href="${
              projects[projectIndex].sourceCode
-           }" class="btn">See Source <i class="fa fa-github"></i></a>
+           }" class="btn green-button">See Source <i class="fa fa-github"></i></a>
         </div>
         </div>
         <div class="tech-and-buttons">
