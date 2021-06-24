@@ -61,79 +61,8 @@ document.getElementsByClassName('mobile-a')[2].addEventListener('click', () => {
   menu.style.display = 'none';
 });
 
-const projects = [
-  {
-    id: 0,
-    name: 'Multi-Post Stories Gain+Glory',
-    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
-    liveSource: '#',
-    sourceCode: '#',
-  },
-  {
-    id: 1,
-    name: 'Multi-Post Stories Gain+Glory',
-    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
-    liveSource: '#',
-    sourceCode: '#',
-  },
-  {
-    id: 2,
-    name: 'Multi-Post Stories Gain+Glory',
-    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
-    liveSource: '#',
-    sourceCode: '#',
-  },
-  {
-    id: 3,
-    name: 'Multi-Post Stories Gain+Glory',
-    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
-    liveSource: '#',
-    sourceCode: '#',
-  },
-  {
-    id: 4,
-    name: 'Multi-Post Stories Gain+Glory',
-    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
-    liveSource: '#',
-    sourceCode: '#',
-  },
-  {
-    id: 5,
-    name: 'Multi-Post Stories Gain+Glory',
-    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
-    liveSource: '#',
-    sourceCode: '#',
-  },
-];
-const portfolioDynamic = document.getElementById('portfolio-section');
-const projectList = document.createElement('ul');
-projectList.className = 'card-container';
-portfolioDynamic.appendChild(projectList);
-
-let projectsCard = '';
-for (let j=0; j<projects.length; j++){
-  projectsCard+=`
-  <li class="card">
-    <div class="card-content">
-    <h4 class="card-heading">${projects[j].name}</h4>
-    <ul class="card-buttons">
-    ${(function usedTech() {
-      let btns = '';
-      for (let i=0; i<projects[j].technologies.length; i++){
-        btns+=`<li ><button type="button">${projects[j].technologies[i]}</button></li>`;
-      }
-    return btns;
-  }())}
-
-    </ul>
-    
-        <button class="green-button" type="button" data-id="${projects[j].id}">See Project</button>
-  </div>
-</li>`
-}
 
 
-projectList.innerHTML = projectsCard;
 
 //------------------Validation For Email-----------------
 const form = document.getElementById('contact-form')
