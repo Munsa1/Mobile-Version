@@ -423,6 +423,16 @@ textarea {
   align-items: center;
 }
 
+/* ---------- CARD DETAILS ------------ */
+.details-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(182, 177, 177);
+}
+/* ----------------------------------- */
+
+
 .left-align {
   align-self: center;
 }
