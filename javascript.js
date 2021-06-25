@@ -65,9 +65,14 @@ const form = document.getElementById('contact-form');
 const input = document.getElementById('email-input');
 const span = document.getElementById('error-message');
 
-form.addEventListener('submit', (e) => {
-  if (input.value.toLowerCase() !== input.value) {
-    e.preventDefault();
-    span.innerText = 'Please, use only lowercase letter for your email!';
+//------------------Validation For Email-----------------
+const form = document.getElementById('contact-form')
+const input = document.getElementById('email-input')
+const span = document.getElementById('error-message')
+
+form.addEventListener('submit', (event) => {
+  if (input.value!==input.value.toLowerCase()) {
+    event.preventDefault();
+    span.innerHTML = "Please, use only lowercase letters for your email!";
   }
 });
