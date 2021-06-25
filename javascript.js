@@ -60,3 +60,15 @@ document.getElementsByClassName('mobile-a')[1].addEventListener('click', () => {
 document.getElementsByClassName('mobile-a')[2].addEventListener('click', () => {
   menu.style.display = 'none';
 });
+
+// ------------------Validation For Email-----------------
+const contactForm = document.getElementById('contact-form');
+const input = document.getElementById('email-input');
+const span = document.getElementById('error-message');
+
+contactForm.addEventListener('submit', (event) => {
+  if (input.value !== input.value.toLowerCase()) {
+    event.preventDefault();
+    span.innerHTML = 'Please, use only lowercase letters for your email!';
+  }
+});
