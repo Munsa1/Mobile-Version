@@ -60,22 +60,14 @@ document.getElementsByClassName('mobile-a')[1].addEventListener('click', () => {
 document.getElementsByClassName('mobile-a')[2].addEventListener('click', () => {
   menu.style.display = 'none';
 });
+// ------------------Validation For Email-----------------
+const form = document.getElementById('contact-form');
+const input = document.getElementById('email-input');
+const span = document.getElementById('error-message');
 
-
-
-
-//------------------Validation For Email-----------------
-const form = document.getElementById('contact-form')
-const input = document.getElementById('email-input')
-const span = document.getElementById('error-message')
-
-form.addEventListener("submit", (e) => {
-  
+form.addEventListener('submit', (e) => {
   if (input.value.toLowerCase() !== input.value) {
     e.preventDefault();
-    errorMessage.span =
-      "Please, use only lowercase letter for your email!";
+    span.innerText = 'Please, use only lowercase letter for your email!';
   }
 });
-
-

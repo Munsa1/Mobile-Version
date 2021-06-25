@@ -414,6 +414,10 @@ textarea {
   line-height: 24px;
 }
 
+#error-message {
+  color: red;
+}
+
 .form-container {
   margin: 20px auto;
   width: 100%;
